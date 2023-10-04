@@ -39,4 +39,3 @@ function y(){
     console.log('this is y')
 }
 x()
-
