@@ -31,11 +31,26 @@ c();
 
 //what is callback function
 
-function x(){
+function x(y){
     console.log('this is x')
+    y(z)
 }
 
-function y(){
+function y(z){
     console.log('this is y')
+    z()
 }
-x()
+
+function z(){
+    console.log('this is z')
+}
+x(y)
+
+function a2(){
+    var b = 10
+    c2()
+    function c2(){
+      console.log(b)
+    }
+}
+a2()
