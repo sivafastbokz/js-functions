@@ -54,3 +54,6 @@ function a2(){
     }
 }
 a2()
+
+//closure is  a function that is bind together with its lexical environment
+// function along with its lexical scope forms a closure 
