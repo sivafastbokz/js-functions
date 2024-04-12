@@ -30,7 +30,6 @@ c();
 // can a return a function this is also known as firstClass citizens
 
 //what is callback function
-
 function x(y){
     console.log('this is x')
     y(z)
