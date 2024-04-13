@@ -4,13 +4,11 @@ function a(){
 }
 a()
 //function expression
-
 var b = function (){
  console.log('b called')
 }
 b()
 // the diffrence between a function statement and a function expression is hoisting
-
 //anonymous function is just a function without a name
 // function (){
 
