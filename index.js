@@ -15,6 +15,7 @@ b()
 // }
 
 //named function expression
+
 var c = function d(){
     console.log('c called')
     // console.log(d)
