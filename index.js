@@ -3,11 +3,13 @@ function a(){
     console.log('a called')
 }
 a()
+
 //function expression
 var b = function (){
  console.log('b called')
 }
 b()
+
 // the diffrence between a function statement and a function expression is hoisting
 //anonymous function is just a function without a name
 // function (){
@@ -55,3 +57,15 @@ a2()
 
 //closure is  a function that is bind together with its lexical environment
 // function along with its lexical scope forms a closure 
+
+//callback function
+var arr = [1,2,3,4,5]
+
+function callback(arr,callbackFunction){
+    arr.push(6)
+    callbackFunction()
+}
+
+callback(arr, function(){
+   console.log('the number has been pushed:',arr)
+})
