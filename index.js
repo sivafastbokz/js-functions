@@ -69,3 +69,40 @@ function callback(arr,callbackFunction){
 callback(arr, function(){
    console.log('the number has been pushed:',arr)
 })
+
+function one(callback1){
+    console.log('this is function one')
+    callback1(three)
+}
+
+function two(callback2){
+    console.log('this is function two')
+    callback2()
+}
+
+function three(){
+    console.log('this is function three')
+}
+
+one(two)
+
+//reverse string
+const string = 'ronaldo'
+function reverseString(str) {
+    return str.split('').reverse().join('')
+}
+
+console.log(reverseString(string))
+
+fun()
+function fun(){
+    console.log('A Function')
+}
+
+var func = function(){
+    console.log('this is a function')
+}
+
+ func()
+
+ 
