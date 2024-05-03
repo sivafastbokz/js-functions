@@ -109,13 +109,13 @@ var func = function(){
 //     console.log(i)
 //  }
 
-function add(n){
-    n++
-}
+// function add(n){
+//     n++
+// }
 
-const counter = add(1)
+// const counter = add(1)
 
-console.log(counter())
-console.log(counter())
+// console.log(counter())
+// console.log(counter())
 
  
